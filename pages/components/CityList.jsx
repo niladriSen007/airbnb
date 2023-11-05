@@ -178,7 +178,7 @@ const CityList = () => {
   };
 
   return (
-    <div className="flex items-center justify-between px-16 h-6  bg-red-200">
+    <div className="flex items-center justify-between px-16 h-6  bg-red-100">
       {items.map((city, index) => {
         return (
           <div
