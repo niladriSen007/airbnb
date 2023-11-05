@@ -21,13 +21,13 @@ function ImageSlider() {
   return (
     <Slider {...settings} className="">
       <div className="cursor-pointer">
-        <Image width={700} height={800} src={slider1} alt="slider" className="border-2 border-gray-900 w-full h-96 object-cover shadow-md hover:border-2 hover:border-opacity-80" />
+        <Image width={700} height={800} src={slider1} alt="slider" className="border-2 border-red-900 w-full h-96 object-cover shadow-md hover:border-2 hover:border-opacity-80" />
       </div>
       <div className="cursor-pointer">
-        <Image width={700} height={800} src={slider2} alt="slider" className="border-2 border-gray-900 w-full h-96 object-cover shadow-md hover:border-2 hover:border-opacity-80" />
+        <Image width={700} height={800} src={slider2} alt="slider" className="border-2 border-red-900 w-full h-96 object-cover shadow-md hover:border-2 hover:border-opacity-80" />
       </div>
       <div className="cursor-pointer">
-        <Image width={700} height={800} src={slider3} alt="slider" className="border-2 border-gray-900 w-full h-96 object-cover shadow-md hover:border-2 hover:border-opacity-80" />
+        <Image width={700} height={800} src={slider3} alt="slider" className="border-2 border-red-900 w-full h-96 object-cover shadow-md hover:border-2 hover:border-opacity-80" />
       </div>
      
     </Slider>
