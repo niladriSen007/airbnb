@@ -115,8 +115,8 @@ const Search = () => {
                         <AiOutlineMinusCircle className="cursor-pointer" onClick={()=>{
                           setGuest(guest > 1 ? guest -1 : 1)
                         }}/>
-                        <span>{guest}</span>
-                        <AiFillPlusCircle className="cursor-pointer" onClick={()=>{setGuest( guest < 3 ? guest+1 : 3)}}/>
+                        <span>{defaultGuest}</span>
+                        <AiFillPlusCircle className="cursor-pointer" onClick={()=>{setGuest(guest+1)}}/>
                       </div>
                     </div>
                   );
@@ -135,7 +135,7 @@ const Search = () => {
           )}
         </div>
 
-        <button className="h-12 bg-green-500 p-2 text-white font-bold w-32 rounded-r-sm">Search</button>
+        <button onClick={()=>{setSelectBooking(!selectBooking)}} className="h-12 bg-green-500 p-2 text-white font-bold w-32 rounded-r-sm">Search</button>
       </div>
     </div>
   );

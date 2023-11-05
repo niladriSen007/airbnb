@@ -11,7 +11,7 @@ const Login = ({
 }) => {
   return (
     <div
-      className={`w-full absolute h-[88vh] transform transition-transform duration-300  delay-700 flex items-center justify-center`}
+      className={`w-full absolute h-[88vh] transform transition-transform duration-300  delay-700 flex items-center justify-center z-50`}
       style={{ backgroundColor: "#000000a7" }}
     >
       <div ref={popupRef} className="w-[500px] h-[400px] bg-gray-300 relative ">
