@@ -30,7 +30,7 @@ const Search = () => {
   };
 
   return (
-    <div className="w-full h-60 bg-gradient-to-r from-red-600 to-orange-700 flex flex-col gap-6 items-center justify-center">
+    <div className="w-full h-72 -mt-2 bg-gradient-to-r from-red-600 to-orange-700 flex flex-col gap-6 items-center justify-center">
       <h1 className="font-extrabold text-4xl text-white">
         Over 157,000 hotels and homes across 35 countries
       </h1>

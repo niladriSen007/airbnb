@@ -10,9 +10,9 @@ import Image from 'next/image';
 
 function ImageSlider() {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
-    speed: 800,
+    speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true
@@ -21,13 +21,13 @@ function ImageSlider() {
   return (
     <Slider {...settings} className="">
       <div className="cursor-pointer">
-        <Image width={700} height={800} src={slider1} alt="slider" className="border-2 border-red-900 w-full h-96 object-cover shadow-md hover:border-2 hover:border-opacity-80" />
+        <Image width={6000} height={6000} src={slider1} alt="slider" className="border-2 border-red-900 w-full h-96 object-cover shadow-md hover:border-2 hover:border-opacity-80" />
       </div>
       <div className="cursor-pointer">
-        <Image width={700} height={800} src={slider2} alt="slider" className="border-2 border-red-900 w-full h-96 object-cover shadow-md hover:border-2 hover:border-opacity-80" />
+        <Image width={7000} height={8000} src={slider2} alt="slider" className="border-2 border-red-900 w-full h-96 object-cover shadow-md hover:border-2 hover:border-opacity-80" />
       </div>
       <div className="cursor-pointer">
-        <Image width={700} height={800} src={slider3} alt="slider" className="border-2 border-red-900 w-full h-96 object-cover shadow-md hover:border-2 hover:border-opacity-80" />
+        <Image width={7000} height={8000} src={slider3} alt="slider" className="border-2 border-red-900 w-full h-96 object-cover shadow-md hover:border-2 hover:border-opacity-80" />
       </div>
      
     </Slider>

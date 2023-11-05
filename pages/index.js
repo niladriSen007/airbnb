@@ -5,6 +5,7 @@ import Login from "./components/Login";
 import ImageSlider from "./components/ImageSlider";
 import Search from "./components/Search";
 import { HotelContext } from "./context/store";
+import Hero from "./components/Hero";
 
 const Index = () => {
   const [showLoginForm, setShowLoginForm] = useState(false);
@@ -84,9 +85,10 @@ const Index = () => {
             }}
           />
         )}
-        {/* <ImageSlider /> */}
+        <ImageSlider />
         <Search />
       </div>
+      <Hero />
     </HotelContext.Provider>
   );
 };
